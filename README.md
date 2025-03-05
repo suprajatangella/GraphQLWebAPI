@@ -52,6 +52,7 @@ Expected JSON Response:
 
 
 Why Use GraphQL Instead of REST? 
+
 ✅ Flexible Queries - Fetch only the data you need.  
 ✅ Reduced API Calls - Fetch related data in a single request.  
 ✅ Performance Optimization - Avoid over-fetching and under-fetching.  
