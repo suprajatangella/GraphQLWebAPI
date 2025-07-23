@@ -1,4 +1,4 @@
-﻿This is a GraphQL-based API built using ASP.NET Core and Entity Framework Core. 
+This is a GraphQL-based API built using ASP.NET Core and Entity Framework Core. 
 It allows fetching user details along with their posts dynamically using GraphQL queries.
 
 Key Features:  
@@ -53,6 +53,7 @@ Expected JSON Response:
 
 
 Why Use GraphQL Instead of REST? 
+
 ✅ Flexible Queries - Fetch only the data you need.  
 ✅ Reduced API Calls - Fetch related data in a single request.  
 ✅ Performance Optimization - Avoid over-fetching and under-fetching.  
