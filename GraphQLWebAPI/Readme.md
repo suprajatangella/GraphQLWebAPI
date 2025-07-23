@@ -56,3 +56,6 @@ Why Use GraphQL Instead of REST?
 ✅ Reduced API Calls - Fetch related data in a single request.  
 ✅ Performance Optimization - Avoid over-fetching and under-fetching.  
 
+<img width="1676" height="963" alt="image" src="https://github.com/user-attachments/assets/8f4828f2-1f21-4726-81d3-971da5c9e8d8" />
+
+
