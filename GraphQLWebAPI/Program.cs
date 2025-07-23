@@ -15,8 +15,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services
     .AddGraphQL();
     
-
-
 // Add services to the container.
 
 builder.Services.AddControllers().AddJsonOptions(options =>
@@ -41,6 +39,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+});
+
 app.UseGraphQL();
 
 app.Run();

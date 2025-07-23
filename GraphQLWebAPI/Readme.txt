@@ -30,6 +30,7 @@ query {
     posts {
       title
       content
+      createdtime
     }
   }
 }
